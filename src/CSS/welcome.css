@@ -1,0 +1,31 @@
+@keyframes sparkle {
+  0% {
+    transform: translate(100rem, 0rem);
+  }
+  10% {
+   
+    transform: perspective(1000px) rotateX(10deg);
+    
+  }
+  20% {
+    
+    transform: perspective(1000px) rotateX(20deg);
+    
+  }
+  40% {
+    transform: translate(30px, 30px);
+    transform: perspective(1000px) rotateX(30deg);
+    
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff0000,
+      0 0 35px #ff7300, 0 0 40px #ff3c00, 0 0 50px #ff4800, 0 0 75px #ff0000;
+  }
+}
+
+.welcome {
+  animation: sparkle 20s ease-in-out forwards ;
+  font-size: 800%;
+  margin-top: 2%;
+  text-shadow: 20rem #ff4800 ;
+}
