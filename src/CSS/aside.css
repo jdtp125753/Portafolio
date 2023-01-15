@@ -23,10 +23,11 @@
 }
 
 .sidebar li{
+    width: 100%;
     list-style-type: none;
     padding: .0.2rem;
     margin: 0.8rem;
-    margin-left: -1.5rem;
+    margin-left: -1rem;
     font-size: 80%;
 }
 .sidebar h3:hover{

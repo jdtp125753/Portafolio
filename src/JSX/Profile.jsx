@@ -22,22 +22,26 @@ const Profile = () => {
   const [fileName, setFileName] = useState('Hoja_de_Vida_Desarrollador_Junior.pdf');
   return (
     <>
+
       <img src={ProfileImg} alt="Jhojan" className="img-Jhojan" />
       
       <h1>Jhojan D. Toro Perez</h1>
 
       <p>
+      
         Soy Desarrollador con múltiples habilidades, y manejo una gran rama de
         lenguajes de programación, mi mayor fortaleza es el lenguaje de
         programación Java con SQL (o MySQL), también realizo proyectos Web con
         REACT y JavaScript Front, también manejo Back-End con nodeJs y
         manejo el sistema de control de versiones con Git, Git-hup y GitLab
+      
       </p>
+
       <br />
       
-        <DownloadHDV filePath={filePath} fileName={fileName}/>
+      <DownloadHDV filePath={filePath} fileName={fileName}/>
     
     </>
   );
-};
+}
 export default Profile;
