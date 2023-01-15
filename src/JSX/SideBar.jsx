@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../imgs/profile.jpg";
+import ProfileImg from "../imgs/profile.jpg";
 import GitHup from "../Icons/github.png";
 import GitLab from "../Icons/gitlab.png";
 import Facebook from "../Icons/facebook.png";
@@ -11,7 +11,7 @@ const SideBar = () => {
         <>
             <aside class="sidebar">
                 <h2>Mi Portafolio</h2>
-                <img src={Profile} class="profile" alt="Jhojan Toro" />
+                <img src={ProfileImg} class="profile" alt="Jhojan Toro" />
                 <h3>Jhojan Toro</h3>
                 <ul>
                     <li>Mis experiencias profecionales</li>

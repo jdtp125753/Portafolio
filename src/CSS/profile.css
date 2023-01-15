@@ -1,0 +1,21 @@
+
+p {
+  width: 70%;
+  font-size: 140%;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+.img-Jhojan {
+  position: relative;
+  border-radius: 50%;
+  margin-top: 3%;
+  width: 20%;
+  height: 32%;
+}
+.downloadhdv{
+  margin-top: -2rem;
+}
+
+.row{
+  background-color: darkgreen;
+}

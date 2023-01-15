@@ -1,13 +1,12 @@
 import React from "react";
-import Profile from "../imgs/profile.jpg";
-
+import Profile from "./Profile"
 import "../CSS/main.css";
 
 const Main = () => {
   return (
     <>
-      <main class="content">
-        <h1 class="welcome">Bienvenidos</h1>
+      <main className="conteiner">
+        <Profile/>
       </main>
     </>
   );
