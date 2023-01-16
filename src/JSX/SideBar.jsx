@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProfileImg from "../imgs/profile.jpg";
 import GitHup from "../Icons/github.png";
 import GitLab from "../Icons/gitlab.png";
@@ -12,7 +13,7 @@ const SideBar = () => {
             <aside class="sidebar">
                 <h2>Mi Portafolio</h2>
                 <img src={ProfileImg} class="profile" alt="Jhojan Toro" />
-                <h3>Jhojan Toro</h3>
+                <Link to="/src/JSX/Profile.jsx"><h3>Jhojan Toro</h3></Link>
                 <ul>
                     <li>Mis experiencias profecionales</li>
                     <li>Mis Estudios</li>
