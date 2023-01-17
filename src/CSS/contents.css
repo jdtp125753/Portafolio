@@ -1,0 +1,10 @@
+.container{
+    position: fixed;
+    background-color: rgb(20, 20, 20);
+    position: fixe;
+    width: 70%;
+    height: 80%;
+    left: 16%;
+    top: 3rem;
+    border-radius: 2rem;
+}

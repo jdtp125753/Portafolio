@@ -17,18 +17,20 @@
     text-align: center;
     padding: 0.5rem;
 }
-.sidebar h3{
+.sidebar .name{
     text-align:center;
     margin-top: 1.5rem;
+    text-decoration: none;
 }
 
-.sidebar li{
+.sidebar .li{
     width: 100%;
-    list-style-type: none;
     padding: .0.2rem;
     margin: 0.8rem;
     margin-left: -1rem;
     font-size: 80%;
+    display: block;
+    text-decoration: none;
 }
 .sidebar h3:hover{
     background-color: rgb(43, 43, 43);
@@ -36,7 +38,7 @@
     border-radius: 1rem;
     cursor:pointer;
 }
-.sidebar li:hover{
+.sidebar .li:hover{
     background-color: rgb(43, 43, 43);
     border-radius: 1rem;
     cursor: pointer;

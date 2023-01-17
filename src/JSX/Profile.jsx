@@ -18,8 +18,8 @@ const DownloadHDV = ({ filePath, fileName }) => {
 }
 
 const Profile = () => {
-  const [filePath, setFilePath] = useState('../IFiles/Hoja_de_Vida_Desarrollador_Junior.pdf');
-  const [fileName, setFileName] = useState('Hoja_de_Vida_Desarrollador_Junior.pdf');
+  const [filePath] = useState('../IFiles/Hoja_de_Vida_Desarrollador_Junior.pdf');
+  const [fileName] = useState('Hoja_de_Vida_Desarrollador_Junior.pdf');
   return (
     <>
 
