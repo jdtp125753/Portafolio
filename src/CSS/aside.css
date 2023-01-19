@@ -17,6 +17,11 @@
     text-align: center;
     padding: 0.5rem;
 }
+
+.sidebar h3{
+    margin-top: 5%;
+}
+
 .sidebar .name{
     text-align:center;
     margin-top: 1.5rem;
