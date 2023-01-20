@@ -7,6 +7,12 @@ p {
   margin-left: 25%;
   color:white;
 }
+p:hover{
+  text-shadow: 0 0 1rem #fff, 0 0 1.5rem #fff, 0 0 2rem #fff, 0 0 2.5rem #ff0000,
+      0 0 3rem #ff7300, 0 0 3.5rem #ff3c00, 0 0 4rem #91ff00, 0 0 2rem #48ff00;
+
+  color: rgb(189, 255, 9);
+}
 .img-Jhojan {
   position: fixed;
   border-radius: 50%;
@@ -24,6 +30,11 @@ h1{
   margin-top: 4%;
   margin-left: 25%;
 
+}
+h1:hover{
+  text-shadow: 0 0 1rem #fff, 0 0 1.5rem #fff, 0 0 2rem #fff, 0 0 2.5rem #ff0000,
+      0 0 3rem #ff7300, 0 0 3.5rem #ff3c00, 0 0 4rem #ff4800, 0 0 2rem #ff0000;
+      color: rgb(236, 61, 17);
 }
 .downloadhdv{
   margin-top: 2rem;

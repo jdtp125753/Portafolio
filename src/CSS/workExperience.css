@@ -1,0 +1,50 @@
+.con{
+    display: inline;
+}
+.carta{
+    position: fixed;
+    width: 33%;
+    top: 30%;
+    border-radius: 1rem;
+}
+.carta_2{
+    position: fixed;
+    width: 33%;
+    top: 30%;
+    left: 50%;
+    border-radius: 1rem;
+}
+.carta:hover{
+    margin-top: -1rem;
+    text-shadow: 0 0 1rem #fff, 0 0 1.5rem #fff, 0 0 2rem #fff, 0 0 2.5rem #ff0000,
+      0 0 3rem #ff7300, 0 0 3.5rem #ff3c00, 0 0 4rem #ff4800, 0 0 2rem #ff0000;
+    color:aquamarine;
+}
+.carta_2:hover{
+    margin-top: -1rem;
+    text-shadow: 0 0 1rem #fff, 0 0 1.5rem #fff, 0 0 2rem #fff, 0 0 2.5rem #ff0000,
+      0 0 3rem #ff7300, 0 0 3.5rem #ff3c00, 0 0 4rem #ff4800, 0 0 2rem #ff0000;
+    color:aquamarine;
+}
+.title{
+    position: fixed;
+    width: 60%;
+    left: 2rem;
+}
+.title_1{
+    position: absolute;
+    left: 2%;
+}
+.title_2{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.texto{
+    position: relative;
+    display: inline-table;
+    width: 80%;
+    margin-left: 5%;
+    margin-top:20%;
+    font-size:100%;
+}
